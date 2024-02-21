@@ -2,3 +2,10 @@ npm(Node Package Manager) é o gerenciador de pacotes do Node.Js.
 nvm(Node Version Manager) é o gerenciador de versão do Node.js
 O Node.js é o runtime do JavaScript no lado do servidor, nvm install lts/hydrogenpermitindo que os desenvolvedores criem aplicativos web em.
 Nos arquivos .nvmrc, .bashrc, .npmrc, .vimrc o rc significa run commands, são inscripts que possuem instruções de inicialização.
+O arquivo de manifesto lista as dependências do projeto. 
+Para subir o servidor podemos usar o comando next dev, mas isso so funciona após termos inserido o comando "dev": "next dev" em package.json, depois é só rodar npm run dev
+
+"scripts": {
+    "dev": "next dev"
+  },
+
