@@ -1,2 +1,2 @@
 # clone-tabnews
-Implementação de uma aplicação que será um clone do tabnews
+Implementação do https://www.tabnews.com.br para o https://curso.dev
