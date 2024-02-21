@@ -5,7 +5,3 @@ Nos arquivos .nvmrc, .bashrc, .npmrc, .vimrc o rc significa run commands, são i
 O arquivo de manifesto lista as dependências do projeto. 
 Para subir o servidor podemos usar o comando next dev, mas isso so funciona após termos inserido o comando "dev": "next dev" em package.json, depois é só rodar npm run dev
 
-"scripts": {
-    "dev": "next dev"
-  },
-
