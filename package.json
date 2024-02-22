@@ -4,7 +4,9 @@
   "description": "Implementação do https://www.tabnews.com.br para o https://curso.dev",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,10 +17,13 @@
   "bugs": {
     "url": "https://github.com/macklee251/clone-tabnews/issues"
   },
-  "homepage": "https://github.com/macklee251/clone-tabnews#readme",
+  "homepage": "https://macklee251.github.io/clone-tabnews/",
   "dependencies": {
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
